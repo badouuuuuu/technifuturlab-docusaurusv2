@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Bienvenue !
+# Bienvenue ! 
 
 Bienvenue dans mon petit laboratoire.
 Je te présente docusaurus, un outil super sympas sous ReactJS qui te permettra de
