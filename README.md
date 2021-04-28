@@ -1,6 +1,13 @@
-# Website
+# Docusaurus Technifutur-tff
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+[Docusaurus 2](https://docusaurus.io/)
+
+## Utilisation du repo git
+
+```sh
+git clone https://github.com/badouuuuuu/technifuturlab-docusaurusv2.git
+cd technifuturlab-docusuarusv2
+```
 
 ## Installation
 
@@ -14,20 +21,33 @@ npm install
 npm start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-## Build
+## Crée votre branche
 
-```console
-npm build
+```sh
+git branch votrenomdebranche
+git checkout votrenomdebranche
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-## Deployment
 
-```console
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
+## via Docker
+
+Sous docker, le temps de déploiement est d'environs 5 minutes avant d'accèder au site web
+
+```sh
+docker run badouuuuuu/technifuturlab-docusaurusv2
+```
+Accessible ensuite sur : [http://localhost](http://localhost ) 
+
+Si vous n'accédez pas a la page web, prenez l'ip du container :
+
+```
+docker ps
+```
+Notez l'id_container du container
+
+```
+docker inspect id_container | grep -i IPAddress
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
