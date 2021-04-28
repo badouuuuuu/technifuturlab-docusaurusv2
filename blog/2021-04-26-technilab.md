@@ -1,5 +1,5 @@
 ---
-slug: TechnifuturLab
+slug: first-post
 title: Bienvenue a mon TFF
 author: badouuuuuu
 author_title: Youssef El hirech
@@ -9,4 +9,12 @@ author_image_url: https://avatars.githubusercontent.com/u/42454363?s=400&u=1acfd
 tags: [technifuturlab, badou, bienvenue, docker, ansible, docusaurus]
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+Voici une petite partie de mon projet TFF.
+Cette plateforme docusaurus permet a tout développeur 
+de créer sa documentation assez facilement.
+
+Ce projet permet également un travail en collabartion
+très simples grâce a sa facilité de création de fichier !
+
+Docusaurus fonctionne grâce au Markdown...
+

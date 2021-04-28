@@ -19,19 +19,21 @@ module.exports = {
       },
       items: [
         {
-          style: "dark",
+          
           type: "doc",
           docId: "intro",
           position: "left",
           label: "Home"
         },
         {
-          style: "dark",
+          
           type: "doc",
           docId: "intro",
           position: "left",
           label: "Présentation"
         },
+
+
         { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/badouuuuuu",
