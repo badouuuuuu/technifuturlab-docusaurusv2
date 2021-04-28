@@ -30,14 +30,15 @@ export default function MyReactPage() {
 
 A new page is now available at `http://localhost:3000/my-react-page`.
 
-## Create your first Markdown Page
+## Crée votre premiere page Markdown
 
-Create a file at `src/pages/my-markdown-page.md`:
+Crée un fichier dans `src/pages/my-markdown-page.md`:
 
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
+```mdx title="src/pages/ma-premiere-page.md"
+# Page premiere page 
 
-This is a Markdown page
+Tadam !
 ```
 
-A new page is now available at `http://localhost:3000/my-markdown-page`.
+La nouvelle page est disponible sur: 
+ `http://localhost:3000/ma-premiere-page`.

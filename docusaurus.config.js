@@ -11,19 +11,22 @@ module.exports = {
   projectName: "docusaurus", // Usually your repo name.
   themeConfig: {
     navbar: {
+      
       title: "Technifutur Lab",
       logo: {
         alt: "Technifutur Lab",
-        src: "img/logo.svg"
+        src: "img/logo-techni.png"
       },
       items: [
         {
+          style: "dark",
           type: "doc",
           docId: "intro",
           position: "left",
           label: "Home"
         },
         {
+          style: "dark",
           type: "doc",
           docId: "intro",
           position: "left",
