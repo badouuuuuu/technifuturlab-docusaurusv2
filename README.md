@@ -1,4 +1,4 @@
-# Docusaurus Technifutur-tff
+# Docusaurus Technifutur TFF
 
 [Docusaurus 2](https://docusaurus.io/)
 
