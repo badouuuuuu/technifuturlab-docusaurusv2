@@ -31,7 +31,7 @@ git checkout votrenomdebranche
 
 
 
-## via Docker
+## via Docker 
 
 Sous docker, le temps de déploiement est d'environs 5 minutes avant d'accèder au site web
 
