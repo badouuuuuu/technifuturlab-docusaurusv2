@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: gke-docusaurus
-        image: gcr.io/$PROJECT_ID/$IMAGE:$TAG
+        image: gcr.io/technifutur-tff/docusaurus:TAG
         ports:
         - containerPort: 80
         resources:
