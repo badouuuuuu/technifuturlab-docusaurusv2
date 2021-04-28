@@ -1,17 +1,14 @@
 name: Build and Deploy to GKE
 
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  release:
+    types: [created]
 
 env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
-  GKE_CLUSTER: technifuturlab-githubactions   # Add your cluster name here.
-  GKE_ZONE: eu-west1-b   # Add your cluster zone here.
-  DEPLOYMENT_NAME: gke-docusaurus # Add your deployment name here.
+  GKE_CLUSTER: technifuturlab-githubactions    # Add your cluster name here.
+  GKE_ZONE: europe-west-b   # Add your cluster zone here.
+  DEPLOYMENT_NAME: docusaurus-deploy # Add your deployment name here.
   IMAGE: docusaurus
 
 jobs:
