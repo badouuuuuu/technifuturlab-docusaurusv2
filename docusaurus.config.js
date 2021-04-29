@@ -30,7 +30,7 @@ module.exports = {
           type: "doc",
           docId: "intro",
           position: "left",
-          label: "Présentation"
+          label: "Cours"
         },
 
 
