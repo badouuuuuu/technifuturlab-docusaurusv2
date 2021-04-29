@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: gke-docusaurus
-        image: gcr.io/technifutur-tff/docusaurus:latest
+        image: REGISTRY_HOSTNAME/technifutur-tff/IMAGE:GITHUB_SHA
         ports:
         - containerPort: 80
         resources:
