@@ -102,7 +102,7 @@ module.exports = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/badouuuuuu/technifuturlab-docusaurusv2/edit/main/blog/"
+            "https://github.com/badouuuuuu/technifuturlab-docusaurusv2/edit/main/"
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css")
