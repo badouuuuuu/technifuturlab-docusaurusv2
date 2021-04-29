@@ -25,7 +25,18 @@ Il est temps de créer notre **nouveau site web**
 
 ## Création d'un nouveau site web
 
+Installation de NodeJS & NPM 
+
+```shell
+sudo apt install nodejs npm
+```
+
+```shell
+npx @docusaurus/init@latest init monsiteweb bootstrap
+```
+
 Pour générer un nouveau template Docusaurus vous avez le choix entre **deux templates** :
+
 
 - classic
 - bootstrap
