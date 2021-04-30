@@ -15,7 +15,7 @@ intéressant :
 - NodeJS et serveur
 - Organisation de tes fichier
 
-Découvrons celà en **moins de 5 minutes**
+:::tip Découvrons celà en **moins de 5 minutes**
 
 **Je vous proposes de déployer votre docusaurus personnel, et de partir a l'aventure la doc !**
 
