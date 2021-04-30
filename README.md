@@ -9,7 +9,7 @@ git clone https://github.com/badouuuuuu/technifuturlab-docusaurusv2.git
 cd technifuturlab-docusuarusv2
 ```
 
-## Installation
+## Installation 
 
 ```console
 npm install
