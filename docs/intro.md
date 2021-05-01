@@ -21,9 +21,9 @@ Découvrons celà en **moins de 5 minutes**
 
 ## Commençons
 
-Il est temps de créer notre **nouveau site web**
+Il est temps de créer notre **blog de documentation !**
 
-## Création d'un nouveau site web
+## Création du docusaurus : 
 
 Installation de NodeJS & NPM 
 
