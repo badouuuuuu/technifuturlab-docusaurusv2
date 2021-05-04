@@ -29,8 +29,6 @@ git branch votrenomdebranche
 git checkout votrenomdebranche
 ```
 
-
-
 ## via Docker 
 
 Sous docker, le temps de déploiement est d'environs 5 minutes avant d'accèder au site web
