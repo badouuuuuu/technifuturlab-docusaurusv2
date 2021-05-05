@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "Technifutur Lab",
-  tagline: "\n",
+  tagline: "Apprendre les bases de l'IT et du développement",
   url: "https://github.com/badouuuuuu",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -34,7 +34,7 @@ module.exports = {
           
           type: "doc",
           docId: "Cours/HTML - CSS/html-css",
-          position: "right",
+          position: "left",
           label: "Cours"
         },
 
