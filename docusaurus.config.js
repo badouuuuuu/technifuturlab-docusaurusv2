@@ -1,15 +1,19 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "Technifuturlab",
-  tagline: "Technifutur Lab DevOps",
+  title: "Technifutur Lab",
+  tagline: "\n",
   url: "https://github.com/badouuuuuu",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  favicon: "img/favicon.png",
   organizationName: "badouuuuuu", // Usually your GitHub org/user name.
   projectName: "technifuturlab-docusaurusv2", // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      defaultMode: 'dark',
+    },
+  
     navbar: {
       
       title: "Technifutur Lab",
@@ -17,6 +21,7 @@ module.exports = {
         alt: "Technifutur Lab",
         src: "img/logo-techni.png"
       },
+      
       items: [
         {
           
@@ -28,18 +33,13 @@ module.exports = {
         {
           
           type: "doc",
-          docId: "intro",
-          position: "left",
+          docId: "Cours/HTML - CSS/html-css",
+          position: "right",
           label: "Cours"
         },
 
-
         { to: "/blog", label: "Blog", position: "left" },
-        {
-          href: "https://github.com/badouuuuuu",
-          label: "GitHub",
-          position: "right"
-        }
+
       ]
     },
     footer: {
@@ -75,7 +75,7 @@ module.exports = {
           title: "Plus d'info...",
           items: [
             {
-              label: "Blog",
+              label: "blog",
               to: "/blog"
             },
             {
@@ -95,7 +95,6 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-
           editUrl: "https://github.com/badouuuuuu/technifuturlab-docusaurusv2/edit/main/"
         },
         blog: {
