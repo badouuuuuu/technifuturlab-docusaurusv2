@@ -19,7 +19,7 @@ module.exports = {
       title: "Technifutur Lab",
       logo: {
         alt: "Technifutur Lab",
-        src: "img/logo-techni.png"
+        src: "img/logo-techni.svg"
       },
       
       items: [

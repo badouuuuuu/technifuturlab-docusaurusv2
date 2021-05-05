@@ -15,7 +15,22 @@
   --ifm-color-primary-lighter: #031026; /*rgb(102, 212, 189);*/
   --ifm-color-primary-lightest: #031026 /*rgb(146, 224, 208);*/
   --ifm-code-font-size: 90%; /*95%;*/
+
 }
+
+.menu__link:hover {
+  color: #d15400;
+}
+
+.navbar__item:hover {
+  color: #d15400;
+
+}
+
+.menu__link--active:active {
+  color: #d15400;
+}
+
 
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
@@ -37,9 +52,42 @@ html[data-theme='dark'] {
   --ifm-color-primary-lightest: #0a2654 /*rgb(146, 224, 208);*/
   --ifm-code-font-size: 90%; /*95%;*/
   --ifm-font-color-base: rgb(255, 255, 255);
-  
 
 }
+
+
+html[data-theme='dark'] {
+  --ifm-background-color: #031026;
+  --ifm-background-surface-color: #d15400;
+  --ifm-color-primary: #031026; /*#25c2a0;*/
+  --ifm-color-primary-dark: #e45b00; /*rgb(33, 175, 144);*/
+  --ifm-color-primary-darker: #0a2654; /*rgb(31, 165, 136);*/
+  --ifm-color-primary-darkest: #0a2654; /*rgb(26, 136, 112);*/
+  --ifm-color-primary-light: #0a2654; /*rgb(70, 203, 174);*/
+  --ifm-color-primary-lighter: #0a2654; /*rgb(102, 212, 189);*/
+  --ifm-color-primary-lightest: #0a2654; /*rgb(146, 224, 208);*/
+  --ifm-code-font-size: 95%; /*95%;*/
+  --ifm-font-color-base: rgb(255, 255, 255);
+}
+
+
+html[data-theme='dark'] .center-techni g  {
+  fill: white;
+}
+
+html[data-theme='dark'] .navbar__item {
+  color: white;
+}
+
+html[data-theme='dark'] .navbar__item:hover {
+  color: #031026;
+}
+
+html[data-theme='light'] {
+  color: #0a2654;
+}
+
+
 
 .navbar__item navbar__link navbar__link--active {
   --ifm-color-primary-dark: #e45b00; /*rgb(33, 175, 144);*/
