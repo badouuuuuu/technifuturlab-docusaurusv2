@@ -16,5 +16,5 @@ de créer sa documentation assez facilement.
 Ce projet permet également un travail en collabartion
 très simples grâce a sa facilité de création de fichier !
 
-Docusaurus fonctionne grâce au Markdown...
+Docusaurus fonctionne grâce au Markdown..
 
